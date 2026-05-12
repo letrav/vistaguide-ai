@@ -166,7 +166,12 @@ async function quickAsk(text) {
   document.getElementById("question").value = text;
   await ask();
 }
-
+document.getElementById("question").addEventListener("keydown", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    ask();
+  }
+});
 </script>
 
 </body>
