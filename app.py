@@ -132,7 +132,7 @@ HTML = """
   <div class="card">
     <h1>Ask VistaGuide</h1>
 <p class="subtitle">Scan Once. Explore Freely.</p>
-    <p class="helper">Ask about food, parking, beach rules, shopping, emergencies, nightlife, and more.</p>
+    
     <input id="question" placeholder="Ask your concierge..." />
     <button onclick="ask()">Ask</button>
     <div class="suggestions">
