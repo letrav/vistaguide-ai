@@ -49,18 +49,24 @@ HTML = """
   <title>Ask VistaGuide</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 520px;
-      margin: 30px auto;
-      padding: 20px;
-      background: #f7f7f7;
-    }
+    font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 12px;
+    background: #f7f7f7;
+    box-sizing: border-box;
+}
     .card {
       background: white;
       border-radius: 18px;
       padding: 20px;
       box-shadow: 0 4px 16px rgba(0,0,0,.08);
     }
+    .card {
+    width: 100%;
+    box-sizing: border-box;
+}
     input {
   width: 100%;
   padding: 14px;
